@@ -255,9 +255,7 @@ nav .cta:hover { background: #0056b3; }
 
 .contact .form h2 { margin-bottom: 1.5rem; }
 
-.contact .form input,
-.contact .form textarea,
-.contact .form button {
+.contact .form input, .contact .form textarea, .contact .form button {
     width: 100%;
     margin-bottom: 1rem;
     padding: 0.5rem;
@@ -279,15 +277,13 @@ nav .cta:hover { background: #0056b3; }
 /* Footer Section */
 footer {
     background-color: #1c2331;
-    color: #dddddd;
     padding: 3rem 0;
 }
 
 .footer {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .footer-left { max-width: 30%; }
@@ -296,12 +292,12 @@ footer {
     font-size: 1.6rem;
     font-family: Impact, sans-serif;
     color: #007bff;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .footer-left p {
-    margin-bottom: 2rem;
-    color: #a0a7b1;
+    margin-bottom: 1.2rem;
+    color: #bbbbbb;
 }
 
 .footer-social {
@@ -310,91 +306,57 @@ footer {
 }
 
 .footer-social a img {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     background: #ddd;
     border-radius: 12px;
 }
 
-/* */
-.middle-left,
-.middle-right {
-    flex: 1;
-    min-width: 150px;
+.footer-middle {
+    max-width: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
 }
 
-.middle-left h3,
-.middle-right h3 {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-}
-
-.middle-left ul,
-.middle-right ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.middle-left ul li,
-.middle-right ul li {
+.footer-middle h3 {
+    color: #888;
     margin-bottom: 0.5rem;
 }
 
-.middle-left ul li a,
-.middle-right ul li a {
-    color: #a0a7b1;
-    text-decoration: none;
-    font-size: 0.9rem;
+.footer-middle ul { list-style: none; }
+
+.footer-middle ul li a {
+    color: #bbb;
     transition: color 0.3s ease;
 }
 
-.middle-left ul li a:hover,
-.middle-right ul li a:hover {
-    color: #ffffff;
-}
+.footer-middle ul li a:hover { color: #eee; }
 
-.footer-right {
-    max-width: 250px;
-}
+.footer-right { max-width: 30%; }
 
 .footer-right h3 {
-    font-size: 1.1rem;
+    color: #888;
     margin-bottom: 1rem;
 }
 
 .footer-right input[type="email"] {
-    width: calc(100% - 50px);
+    width: 80%;
     padding: 0.5rem;
     border: none;
     border-radius: 5px;
     background-color: #2e3b4e;
-    color: #ffffff;
-    margin-bottom: 0.5rem;
-}
-
-.footer-right input::placeholder {
-    color: #a0a7b1;
+    margin-bottom: 1.2rem;
 }
 
 .footer-right button {
-    width: 50px;
-    height: 42px;
+    padding: 0.4rem 1rem;
     border: none;
     border-radius: 5px;
     background-color: #4c8bf5;
-    color: #ffffff;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.footer-right button:hover {
-    background-color: #3674d4;
-}
-
-.footer-right button i {
-    font-size: 1rem;
-}
+.footer-right button:hover { background-color: #3674d4; }

@@ -1,9 +1,8 @@
 /* Responsive Styles */
 
 @media (max-width: 991px) {
-    .clients .logos {
-        grid-template-columns: repeat(3, 1fr);
-    }
+    /* Our Clients Section */
+    .clients .logos { grid-template-columns: repeat(3, 1fr); }
 
     /* Blockchain Future Section */
     .future .cards {
@@ -12,9 +11,7 @@
         padding-bottom: 1rem;
     }
       
-    .future .card .content {
-        padding: 0.5rem 1rem;
-    }
+    .future .card .content { padding: 0.5rem 1rem; }
 }
 
 
@@ -106,10 +103,23 @@
     }
 
     .contact .form { max-width: 100%; }
+
+
+    /* Footer Section */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-left, .footer-middle, .footer-right { max-width: 100%; }
+
+    .footer-social { justify-content: center; }
 }
 
 
 @media (max-width: 575px) {
+    /* Blockchain Future Section */
     .future .cards {
         grid-template-columns: repeat(1, 1fr);
         gap: 4rem;
